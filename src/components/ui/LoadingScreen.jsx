@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../../assets/logo.png';
 
 export default function LoadingScreen() {
   const [loading, setLoading] = useState(true);
@@ -30,7 +31,7 @@ export default function LoadingScreen() {
               transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
               className="w-24 h-24 mx-auto mb-6 rounded-full border-4 border-gold/30 border-t-gold flex items-center justify-center"
             >
-              <span className="text-4xl">🙏</span>
+              <img src={logo} alt="Logo" className="w-16 h-16 rounded-full object-contain" />
             </motion.div>
             <h1 className="font-[Playfair_Display] text-4xl font-bold text-gold mb-2">
               Durga Bhak Niwas

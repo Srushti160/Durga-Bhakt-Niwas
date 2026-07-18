@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { FiPhone } from 'react-icons/fi';
 import { BsWhatsapp } from 'react-icons/bs';
 import { useTheme } from '../../context/ThemeContext';
+import logo from '../../assets/logo.png';
 
 export default function Hero() {
   const { isDark } = useTheme();
@@ -41,7 +42,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="mb-6"
         >
-          <span className="text-6xl md:text-7xl">🙏</span>
+          <img src={logo} alt="Durga Bhak Niwas" className="w-20 h-20 md:w-24 md:h-24 rounded-full object-contain mx-auto" />
         </motion.div>
 
         <motion.p

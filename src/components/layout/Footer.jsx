@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useTheme } from '../../context/ThemeContext';
 import { FiPhone, FiMapPin, FiMail, FiArrowUp } from 'react-icons/fi';
 import { BsWhatsapp, BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
+import logo from '../../assets/logo.png';
 
 const quickLinks = ['Home', 'About', 'Rooms', 'Facilities', 'Gallery', 'Reviews', 'Contact'];
 const facilityLinks = ['Free WiFi', 'Hot Water', 'Parking', 'CCTV', 'Family Rooms', 'Room Service'];
@@ -21,7 +22,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-2 mb-5">
-              <span className="text-3xl">🙏</span>
+              <img src={logo} alt="Durga Bhak Niwas Logo" className="w-10 h-10 rounded-full object-contain" />
               <div>
                 <h2 className="font-[Playfair_Display] text-xl font-bold text-gold">Durga Bhak Niwas</h2>
                 <p className="text-[10px] tracking-[2px] text-gold/50 uppercase">Tuljapur, Maharashtra</p>

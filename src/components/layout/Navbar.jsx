@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
 import { useTheme } from '../../context/ThemeContext';
+import logo from '../../assets/logo.png';
 
 const navLinks = [
   { name: 'Home', href: '#home' },
@@ -64,7 +65,7 @@ export default function Navbar() {
               className="flex items-center gap-2"
               whileHover={{ scale: 1.02 }}
             >
-              <span className="text-3xl">🙏</span>
+              <img src={logo} alt="Durga Bhak Niwas Logo" className="w-10 h-10 rounded-full object-contain" />
               <div>
                 <h1 className="font-[Playfair_Display] text-xl font-bold text-gold leading-tight">
                   Durga Bhak
