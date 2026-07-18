@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-3xl">🙏</span>
               <div>
-                <h2 className="font-[Playfair_Display] text-xl font-bold text-gold">Durga Bhak Niwas</h2>
+                <h2 className="font-[Playfair_Display] text-xl font-bold text-gold">Durga Bhakt Niwas</h2>
                 <p className="text-[10px] tracking-[2px] text-gold/50 uppercase">Tuljapur, Maharashtra</p>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function Footer() {
       <div className="border-t border-gold/10">
         <div className="container-custom py-5 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-cream/40 text-sm text-center md:text-left">
-            © 2026 Durga Bhak Niwas. All Rights Reserved.
+            © 2026 Durga Bhakt Niwas. All Rights Reserved.
           </p>
           <p className="text-cream/40 text-xs">
             Made with ❤️ for devotees of Goddess Tulja Bhavani

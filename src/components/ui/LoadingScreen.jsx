@@ -34,7 +34,7 @@ export default function LoadingScreen() {
               <span className="text-4xl">🙏</span>
             </motion.div>
             <h1 className="font-[Playfair_Display] text-4xl font-bold text-gold mb-2">
-              Durga Bhak Niwas
+              Durga Bhakt Niwas
             </h1>
             <p className="text-cream/70 text-sm tracking-[3px] uppercase">
               Where Comfort Meets Devotion

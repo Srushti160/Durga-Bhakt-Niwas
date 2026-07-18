@@ -68,7 +68,7 @@ export default function Navbar() {
               <span className="text-3xl">🙏</span>
               <div>
                 <h1 className="font-[Playfair_Display] text-xl font-bold text-gold leading-tight">
-                  Durga Bhak
+                  Durga Bhakt
                 </h1>
                 <p className="text-[10px] tracking-[2px] text-gold/70 uppercase -mt-0.5">Niwas</p>
               </div>

@@ -37,7 +37,7 @@ export default function FloatingButtons() {
             transition={{ delay: 0.1 }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            href={`https://wa.me/91${whatsappNumber}?text=Hello%2C%20I%20would%20like%20to%20book%20a%20room%20at%20Durga%20Bhak%20Niwas.`}
+            href={`https://wa.me/91${whatsappNumber}?text=Hello%2C%20I%20would%20like%20to%20book%20a%20room%20at%20Durga%20Bhakt%20Niwas.`}
             target="_blank"
             rel="noopener noreferrer"
             className="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:bg-[#20BA5C] transition-all"

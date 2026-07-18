@@ -19,7 +19,7 @@ export default function About() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80"
-                alt="Durga Bhak Niwas Hotel"
+                alt="Durga Bhakt Niwas Hotel"
                 className="w-full h-[400px] md:h-[500px] object-cover"
                 loading="lazy"
               />
@@ -48,7 +48,7 @@ export default function About() {
             </h2>
             <div className={`space-y-4 text-lg leading-relaxed ${isDark ? 'text-cream/70' : 'text-dark-brown/70'}`}>
               <p>
-                Nestled in the spiritual heart of Tuljapur, Durga Bhak Niwas offers a serene
+                Nestled in the spiritual heart of Tuljapur, Durga Bhakt Niwas offers a serene
                 retreat for pilgrims visiting the sacred Shri Tulja Bhavani Temple.
               </p>
               <p>

@@ -31,7 +31,7 @@ export default function Contact() {
             <div className={`p-6 rounded-2xl ${isDark ? 'bg-[#1a1009] border border-gold/10' : 'bg-white border border-gray-100'} shadow-lg`}>
               <h3 className="font-[Playfair_Display] text-2xl font-bold mb-4"
                   style={{ color: isDark ? '#FFF8EE' : '#3D2415' }}>
-                Durga Bhak Niwas
+                Durga Bhakt Niwas
               </h3>
               <div className="flex items-start gap-3 mb-4">
                 <FiMapPin size={20} className="text-gold mt-0.5 shrink-0" />
@@ -79,7 +79,7 @@ export default function Contact() {
               width="100%" height="100%" style={{ border: 0, minHeight: '350px' }}
               allowFullScreen="" loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Durga Bhak Niwas Location"
+              title="Durga Bhakt Niwas Location"
             />
           </motion.div>
         </div>

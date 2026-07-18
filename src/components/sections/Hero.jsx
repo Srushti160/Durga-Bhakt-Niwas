@@ -60,7 +60,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="font-[Playfair_Display] text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight"
         >
-          Durga Bhak
+          Durga Bhakt
           <span className="block text-gradient">Niwas</span>
         </motion.h1>
 
@@ -79,7 +79,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 1.1 }}
           className="text-cream/80 text-base md:text-lg max-w-3xl mx-auto mb-12 leading-relaxed"
         >
-          Located in the holy city of Tuljapur, Durga Bhak Niwas is dedicated to providing
+          Located in the holy city of Tuljapur, Durga Bhakt Niwas is dedicated to providing
           a relaxing and affordable stay for devotees of Goddess Tulja Bhavani. Our rooms
           are designed to offer comfort, cleanliness, and convenience, making your pilgrimage
           peaceful and enjoyable.
